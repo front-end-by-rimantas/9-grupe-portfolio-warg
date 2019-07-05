@@ -13,4 +13,4 @@ Site published at https://front-end-by-rimantas.github.io/9-grupe-portfolio-warg
 Design: [Warg template](http://phydev.web44.net/warg/home-2-light.html)
 
 ### Authors
-[Egidijus](), [Mindaugas]()
+[Egidijus](), [Mindaugas](https://github.com/mindarchist)
