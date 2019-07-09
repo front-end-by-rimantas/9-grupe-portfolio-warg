@@ -1,1 +1,9 @@
 /* colors */
+
+:root {
+    --main-color: #4e31ac;
+    --main-color-anti: #FFF;
+    --secondary-color: #f6f6f6;
+    --secondary-color-anti: #757575;
+    --footer-color: #272727;
+}
