@@ -15,3 +15,11 @@
 /* contact */
 
 /* footer */
+
+/* advertisement */
+
+.advert {
+    position: fixed;
+    bottom: 0;
+    right: 14px;
+}
