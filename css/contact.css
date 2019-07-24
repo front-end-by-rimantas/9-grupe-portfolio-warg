@@ -1,1 +1,65 @@
 /* contact */
+
+
+form {
+    width: 66%;
+    margin-left: 16%;
+    font-size:0;
+}
+
+    .inputName {
+        display: inline-block;
+        width: calc( (100% - 60px) / 2);
+        padding: 8px 16px;
+        border: 1px solid;
+        margin: 0 15px;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.75;
+        color: #232323;
+        border-color: #ddd;
+    }
+
+    .inputEmail {
+        display: inline-block;
+        width: calc( (100% - 60px) / 2);
+        padding: 8px 16px;
+        border: 1px solid;
+        margin: 0 15px;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.75;
+        color: #232323;
+        border-color: #ddd;
+    }
+
+    .inputText {
+        width: calc(100% - 30px);
+        height: 190px;
+        padding: 8px 16px;
+        margin: 30px 15px 40px 15px;
+        font-family: "Open Sans",sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.75;
+        color: #232323;
+        border-color: #ddd;
+        resize: none;
+    }
+
+@media ( max-width: 1050px ) {
+    form {
+        width: calc(100% - 30px);
+        margin: 0 15px;
+    }
+    .inputName {
+        width: calc(100% - 30px);
+        margin: 0 15px;
+    }
+    .inputEmail {
+        width: calc(100% - 30px);
+        margin-top: 30px;
+    }
+}
