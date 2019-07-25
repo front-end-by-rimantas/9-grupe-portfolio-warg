@@ -1,0 +1,64 @@
+#hero {
+    min-height: 100vh;
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#hero > .container > .row {
+    padding: 0 15px;
+}
+
+.content {
+    display: inline-block;
+    width: 50%;
+}
+
+    .content > h1 {
+        font-family: "Open Sans",sans-serif;
+        color: #202020;
+        font-size: 58px;
+        font-weight: 700;
+        margin-bottom: 34px;
+        text-transform: uppercase;
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 34px;
+    }
+
+    .content > p {
+        font-family: "Open Sans",sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2;
+        color: #757575;
+        letter-spacing: 1px;
+        margin-bottom: 34px;
+    }
+
+    .content > .buttonFull {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    @media ( max-width: 1250px ) {
+        .content {
+            width: 60%;
+        }
+    }
+    
+    @media ( max-width: 1050px ) {
+        .content {
+            width: 70%;
+        }
+    }
+    
+    @media ( max-width: 700px ) {
+        .content {
+            width: 80%;
+        }
+    }
+    
