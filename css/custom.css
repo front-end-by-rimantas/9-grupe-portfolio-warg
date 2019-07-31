@@ -15,6 +15,103 @@
 /* contact */
 
 /* footer */
+#footer{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+}
+.footer-top {
+    background-color: var(--footer-color);
+}
+
+.social-icons{
+    display:inline-block;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.social-icons a{
+    display:inline-block;
+    width: 48px;
+        height: 48px;
+        background-color: var(--main-color);
+        margin: 5px;
+        font-size: 26px;
+        border-radius: 50%;
+        line-height: 44px;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,.7);
+        text-decoration: none;
+        color: white; 
+        vertical-align: middle;
+        text-align: center;
+        
+    }
+    .social-icons a:hover {
+        background-color: white; 
+        color: var(--main-color);
+      }
+    #footer .footer-nav{
+    display:inline-block;
+    width: 100%;
+    text-decoration: none;
+    
+    
+    
+    }
+    #footer .footer-nav a{
+        display:inline-block;
+        text-decoration: none;
+        font-size: 15px;        
+        margin: 10px 6px 0;
+        font-weight: 900;
+        padding-bottom: 25px;
+        color: var( --nav-color);
+        margin: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        /* --secondary-color: #f6f6f6;        */
+        }
+        #footer .footer-nav a:hover{
+            color: var(--secondary-color);
+        }
+       
+    .footer-bootom{
+       margin: 0;
+          
+    }
+    .footer-bottom .row{
+        background-color: var(--main-color);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+        .footer-bottom  p{
+            font-size: 18px;
+            color: var(--main-color-anti);
+            }
+    .to_top{
+       
+        position: absolute;
+        background-color: var(--main-color);
+        right: 15px;
+        top: 15px;
+        width: 45px;
+        height: 45px;
+        font-size: 32px;
+        line-height:  20px;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,.7);
+        
+    }   
+        .to_top a{
+            text-decoration: none;
+            color: var(--main-color-anti);
+            line-height: 38px;
+
+        }
+    
 
 /* advertisement */
 
