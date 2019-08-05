@@ -1,1 +1,30 @@
 /* header */
+#header{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--secondary-color);
+    margin: 0;
+}
+
+nav a{
+        display: inline-block; 
+        float: right;       
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 16px;
+        /* line-height: 30px; */
+        padding: 0px 10px;
+        margin: 10px 20px 10px 0;
+        background-color: transparent;
+        border-radius: 30px;
+}   
+#header img {
+    display: inline-block;
+    float: left;
+    margin-left: 120px;
+}
