@@ -1,5 +1,10 @@
 /* all other styles, style updates, etc */
-
+.plotis{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 /* header */
 
 /* hero */
@@ -12,6 +17,16 @@
 
 /* my blogs */
 
+.item-blog h3{
+    font-size:  20px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    color: #333;
+    
+
+}
 /* contact */
 
 /* footer */
@@ -67,7 +82,7 @@
         text-decoration: none;
         font-size: 15px;        
         margin: 10px 6px 0;
-        font-weight: 900;
+        font-weight: 600;
         padding-bottom: 25px;
         color: var( --nav-color);
         margin: 10px;
@@ -81,16 +96,18 @@
        
     .footer-bootom{
        margin: 0;
-          
+     
     }
     .footer-bottom .row{
         background-color: var(--main-color);
         padding-top: 20px;
         padding-bottom: 20px;
+       
         }
         .footer-bottom  p{
-            font-size: 18px;
+            font-size: 14px;
             color: var(--main-color-anti);
+            
             }
     .to_top{
        
@@ -118,5 +135,6 @@
 .advert {
     position: fixed;
     bottom: 0;
-    right: 14px;
+    right: 16px;
+   
 }
