@@ -1,1 +1,102 @@
 /* works */
+
+    /* position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; */
+
+.filter {
+    display: inline-block;
+    width: 450px;
+    margin-left: calc( (100% - 450px) / 2);
+    text-align: center;
+}
+
+    .filter > a {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 4px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .filter > .itemSelected {
+            font-weight: 700;
+            color: var(--main-color);
+        }
+
+.showcase {
+    margin-top: 24px;
+    font-size: 0; 
+}
+
+    .work-item {
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 24px;
+        position: relative;
+    }
+
+            .showcase > .work-item img {
+                display: inline-block;
+                width: 350px;
+            }
+
+            .showcase > .work-item a {
+                position: absolute;
+                bottom: 40px;
+                left: 35px;
+                font-family: "Open Sans",sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.2;
+                letter-spacing: 1px;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+
+                .showcase > .work-item h3 {
+                    font-family: "Open Sans",sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: #eee;
+                }
+
+                .showcase > .work-item p {
+                    font-family: "Open Sans",sans-serif;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: var(--main-color);
+                }
+            
+#works .works-btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+
+animacija_originale:
+transition: all .4s ease-in-out;
+
+width: 100%;
+height: 100%;
+opacity: 0; 
+
+position: absolute;
+top: 0;
+left: 0;
+
+*/
+
