@@ -2,10 +2,16 @@
 #header{
     display: inline-block;
     width: 100%;
-    padding: 10px;
     position: fixed;
     z-index: 1;
     background-color: var(--secondary-color);
+    margin: 0;
+    box-shadow: 1px 1px #999;
+}
+#header .container{
+    display: inline-block;
+    width: 100%;    
+    padding: 5px;
     margin: 0;
 }
 
@@ -18,13 +24,22 @@ nav a{
         font-weight: bold;
         font-size: 16px;
         /* line-height: 30px; */
-        padding: 0px 10px;
+        padding: 12px;
         margin: 10px 20px 10px 0;
         background-color: transparent;
-        border-radius: 30px;
+        border-radius: 40px;
 }   
+nav a:hover {
+    color:  var(--secondary-color);
+    background-color: var(--main-color);
+
+}
+.active{
+    color:  var(--secondary-color);
+    background-color: var(--main-color);
+}
 #header img {
     display: inline-block;
     float: left;
-    margin-left: 120px;
+    margin-left: 210px;
 }
