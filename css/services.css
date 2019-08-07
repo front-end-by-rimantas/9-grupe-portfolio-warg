@@ -16,7 +16,17 @@
         font-size: 44px;
         line-height: 80px;
         color: var(--main-color);
+        transition: transform .3s ease-in-out;
     }
+
+        .one-service > i:hover {
+            font-size: 44px;
+            line-height: 80px;
+            color: var(--main-color);
+            transform: scaleX(-1);
+            transition: transform .3s ease-in-out;
+        }
+
     .one-service > h3 {
         font-family: "Open Sans",sans-serif;
         letter-spacing: 1px;
