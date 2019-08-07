@@ -36,8 +36,33 @@
         line-height: 2;
         color: #757575;
         letter-spacing: 1px;
-        margin-bottom: 34px;
     }
+
+    #hero .content > .hero-social {
+        display:inline-block;
+        margin: 40px 0 10px 0;
+        width: 100%;
+    }
+    
+        .content > .hero-social a {
+            display:inline-block;
+            width: 40px;
+            height: 40px;
+            margin: 0 2px;
+            border-radius: 50%;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
+            font-size: 16px;
+            line-height: 40px;
+            text-decoration: none;
+            background-color: #eee;
+            color: #000;
+            text-align: center;
+            }
+
+            .content > .hero-social a:hover {
+                background-color: var(--main-color); 
+                color: white;
+            }
 
     .content > .buttonFull {
         text-align: left;
