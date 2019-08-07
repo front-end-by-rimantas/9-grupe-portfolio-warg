@@ -49,12 +49,36 @@
     .aboutVideo {
         display: inline-block;
         width: 50%;
+        position: relative;
     }
 
         .aboutVideo > img {
             display: inline-block;
             max-width: 100%;
         }
+
+        .aboutVideo > a {
+            height: 64px;
+            width: 64px;
+            border: 1px solid #fafafa;
+            font-size: 30px;
+            padding: 16px;
+            line-height: 62px;
+            z-index: 2;
+            background-color: transparent;
+            transition: background-color .4s ease-in-out;
+            text-align: center;
+            position: absolute;
+            color: #fff;
+            left: 44%;
+            top: 44%;            
+        }
+
+            .aboutVideo > a:hover {
+                color: #4e32ac;
+                background-color: #fff;
+                transition: background-color .4s ease-in-out;
+            }
 
     .aboutText {
         display: inline-block;
