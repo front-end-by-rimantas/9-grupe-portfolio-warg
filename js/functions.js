@@ -1,6 +1,12 @@
 "use strict";
 
 //HEADER
+// on scroll
+function functionToCallOnScroll() {
+    updateHeader();
+    updateBackToTopVisibility();
+    updateActiveHeaderMenu();
+}
 
 //HERO
 

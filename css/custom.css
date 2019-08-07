@@ -138,3 +138,22 @@
     right: 16px;
    
 }
+
+/* side bookmarks */
+.ver-center{
+      text-decoration: none;
+      margin-top: 20%;
+      font-size: 16px;
+      font-weight: 700;
+      position: absolute;
+  }
+.left-link{
+    
+    left: -24px;
+    transform: rotateZ(-90deg);
+}
+.right-link{
+   
+    right: -24px;  
+    transform: rotateZ(90deg);
+}

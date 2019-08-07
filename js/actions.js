@@ -1,6 +1,8 @@
 "use strict";
 
 //HEADER
+// on scroll
+window.addEventListener('scroll', functionToCallOnScroll);
 
 //HERO
 

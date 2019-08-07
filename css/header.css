@@ -1,4 +1,7 @@
 /* header */
+html {
+    scroll-behavior: smooth;
+  }
 #header{
     display: inline-block;
     width: 100%;
