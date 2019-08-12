@@ -61,7 +61,16 @@
 
             .content > .hero-social a:hover {
                 background-color: var(--main-color); 
-                color: white;
+                color: rgba(255, 255, 255, 1);
+                animation-name: spin;
+                animation-duration: 0.4s;
+            }
+
+            @keyframes spin {
+            0% {line-height: 44px; color: rgba(255, 255, 255, 1);}
+            50% {line-height: 10px; color: rgba(255, 255, 255, 0);}
+            51% {line-height: 70px; color: rgba(255, 255, 255, 0);}
+            100% {line-height: 44px; color: rgba(255, 255, 255, 1);}
             }
 
     .content > .buttonFull {
