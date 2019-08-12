@@ -47,6 +47,7 @@
     display:inline-block;
     width: 100%;
     padding: 30px 0;
+  
 }
 
 .social-icons a{
@@ -64,10 +65,20 @@
         vertical-align: middle;
         text-align: center;
         
+        
     }
+
+    @keyframes icon_spin {
+        0% {line-height: 44px; color: rgba(44, 19, 189,1);}
+        50% {line-height: 10px; color: rgba(255, 255, 255, 0);}
+        51% {line-height: 70px; color: rgba(255, 255, 255, 0);}
+        100% {line-height: 44px; color: rgb(44, 19, 189,1);}
+        }
     .social-icons a:hover {
         background-color: white; 
         color: var(--main-color);
+        animation-name: icon_spin;
+        animation-duration: 0.6s;
       }
     #footer .footer-nav{
     display:inline-block;
@@ -143,6 +154,7 @@
 .ver-center{
       text-decoration: none;
       margin-top: 20%;
+      letter-spacing: 1px;
       font-size: 16px;
       font-weight: 700;
       position: absolute;
