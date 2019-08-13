@@ -3,6 +3,17 @@
 //HEADER
 // on scroll
 window.addEventListener('scroll', functionToCallOnScroll);
+//hamburerio
+document.querySelector('.hamburger').addEventListener('click', updateMenu);
+document.querySelector('#menu .left').innerHTML = generateMenu();
+document.querySelector('#menu .right').innerHTML = generateHeaderIcons( headerIcons );
+
+document.querySelectorAll('#menu .left > a').forEach( link => {
+    link.addEventListener('click', updateMenu);
+});
+
+updateHeader();
+updateActiveHeaderMenu();
 
 //HERO
 

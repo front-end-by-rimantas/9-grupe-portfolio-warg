@@ -1,6 +1,28 @@
 "use strict";
 
 //HEADER
+const headerIcons = [
+    {
+        link: '#social-link-to-facebook',
+        icon: 'facebook'
+    },
+    {
+        link: '#social-link-to-twitter',
+        icon: 'twitter'
+    },
+    {
+        link: '#social-link-to-instagram',
+        icon: 'instagram'
+    },
+    {
+        link: '#social-link-to-vimeo',
+        icon: 'vimeo'
+    },
+    {
+        link: '#social-link-to-pinterest',
+        icon: 'pinterest'
+    }
+];
 
 //HERO
 
