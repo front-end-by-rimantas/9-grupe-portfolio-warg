@@ -49,3 +49,28 @@ nav a:hover {
     margin-left: 210px;
     margin-top:4px;
 }
+@media ( max-width: 1100px ) {
+                                  
+   
+      nav a{
+        display: inline-block; 
+        float: right;       
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--main-color);
+        
+        font-size: 16px;
+        line-height: 1.75;
+        padding: 5px 12px;
+        margin: 8px 10px 5px 0;
+        background-color: transparent;
+        border-radius: 40px;
+        cursor: pointer;
+}
+
+@media ( max-width: 900px ) {
+                                  
+    .topnav {
+        display: none;
+      }
+}

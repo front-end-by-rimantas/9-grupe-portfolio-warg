@@ -1,1 +1,112 @@
 /* work gallery */
+
+.gallery {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.gallery div {
+   font-size: 20px;
+   color: var(--main-color);
+   /* border-radius: 6px; */
+}
+
+.gallery a {
+    font-size: 20px;
+    color: var(--main-color)
+ }
+    .gallery > .filter {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+        .gallery > .filter > .item {
+            display: inline-block;
+            float: left;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+            .gallery > .filter > .item:last-child {
+                margin-right: 0;
+            }
+            .gallery > .filter > .item:hover{
+                color: var(--main-color);
+            }
+            .gallery > .filter > .item.active {
+                background-color: var(--main-color);
+                color: var(--secondary-color);
+            }
+    .gallery > .list {
+        display: inline-block;
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        text-align: center;
+    }
+        .gallery > .list > .item {
+            display: inline-block;
+            width: calc((100% - 90px) / 3);
+            height: 300px;
+            float: left;
+            margin: 0 15px 30px;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            overflow: hidden;
+            /* border: 1px solid #EEE; */
+            box-shadow: 0 2px 8px #3338;
+        }
+            .gallery .item > .content {
+                display: none;
+                background-color: #3338;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                color: var(--secondary-color-text);
+                align-items: center;
+                justify-content: center;
+            }
+                .gallery .item > .content > .texts {
+                    display: inline-block;
+                    width: 100%;
+                }
+                .gallery .item > .content h4 {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 20px;
+                    color:white;
+                    
+                }
+                .gallery .item > .content .tags {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 20px;
+                    margin-top: 5px;
+                    background-color: #fffc;
+                    
+                   
+                }
+                .gallery .item:hover > .content {
+                    display: flex;
+                }
+                @media ( max-width: 1250px ) {
+                    
+                }
+                
+                @media ( max-width: 1050px ) {
+                    .gallery > .list > .item{
+                       width: calc((100% - 90px) / 2);
+                    }
+                    .gallery .item > .content  {
+                        background-color: #333c;
+                        width: 50%;
+                }
+            }
+                @media ( max-width: 700px ) {
+                                  
+                    .gallery .item > .content  {
+                        background-color: #333c;
+                        width: 30%;
+                }
+            }
