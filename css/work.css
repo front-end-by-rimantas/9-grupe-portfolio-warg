@@ -1,102 +1,42 @@
 /* works */
+:root {
+    --gap: 20px;
+    --c-12: calc((100% / 12) * 12 - 2*var(--gap));
+    --c-11: calc((100% / 12) * 11 - 2*var(--gap));
+    --c-10: calc((100% / 12) * 10 - 2*var(--gap));
+    --c-9: calc((100% / 12) * 9 - 2*var(--gap));
+    --c-8: calc((100% / 12) * 8 - 2*var(--gap));
+    --c-7: calc((100% / 12) * 7 - 2*var(--gap));
+    --c-6: calc((100% / 12) * 6 - 2*var(--gap));
+    --c-5: calc((100% / 12) * 5 - 2*var(--gap));
+    --c-4: calc((100% / 12) * 4 - 2*var(--gap));
+    --c-3: calc((100% / 12) * 3 - 2*var(--gap));
+    --c-2: calc((100% / 12) * 2 - 2*var(--gap));
+    --c-1: calc((100% / 12) * 1 - 2*var(--gap));
 
-    /* position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px; */
-
-.filter {
-    display: inline-block;
-    width: 450px;
-    margin-left: calc( (100% - 450px) / 2);
-    text-align: center;
+    --cml-12: calc((100% / 12) * 12 + var(--gap));
+    --cml-11: calc((100% / 12) * 11 + var(--gap));
+    --cml-10: calc((100% / 12) * 10 + var(--gap));
+    --cml-9: calc((100% / 12) * 9 + var(--gap));
+    --cml-8: calc((100% / 12) * 8 + var(--gap));
+    --cml-7: calc((100% / 12) * 7 + var(--gap));
+    --cml-6: calc((100% / 12) * 6 + var(--gap));
+    --cml-5: calc((100% / 12) * 5 + var(--gap));
+    --cml-4: calc((100% / 12) * 4 + var(--gap));
+    --cml-3: calc((100% / 12) * 3 + var(--gap));
+    --cml-2: calc((100% / 12) * 2 + var(--gap));
+    --cml-1: calc((100% / 12) * 1 + var(--gap));
 }
-
-    .filter > a {
-        font-size: 14px;
-        font-weight: 500;
-        margin: 4px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #333;
+@media ( max-width: 1300px ) {
+    :root {
+        --gap: 20px;
     }
-
-        .filter > .itemSelected {
-            font-weight: 700;
-            color: var(--main-color);
-        }
-
-.showcase {
-    margin-top: 24px;
-    font-size: 0; 
 }
+@media ( max-width: 1100px ) {
+    :root {
+        --gap: 10px;
+        --cml-1: calc((100% / 12) * 1 + var(--gap));
 
-    .work-item {
-        display: inline-block;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 24px;
-        position: relative;
+    
     }
-
-            .showcase > .work-item img {
-                display: inline-block;
-                width: 350px;
-            }
-
-            .showcase > .work-item a {
-                position: absolute;
-                bottom: 40px;
-                left: 35px;
-                font-family: "Open Sans",sans-serif;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.2;
-                letter-spacing: 1px;
-                text-decoration: none;
-                text-transform: capitalize;
-            }
-
-                .showcase > .work-item h3 {
-                    font-family: "Open Sans",sans-serif;
-                    font-size: 18px;
-                    font-weight: 700;
-                    line-height: 1.5;
-                    letter-spacing: 1px;
-                    text-decoration: none;
-                    text-transform: capitalize;
-                    color: #eee;
-                }
-
-                .showcase > .work-item p {
-                    font-family: "Open Sans",sans-serif;
-                    font-size: 16px;
-                    font-weight: 700;
-                    line-height: 1.5;
-                    letter-spacing: 1px;
-                    text-decoration: none;
-                    text-transform: capitalize;
-                    color: var(--main-color);
-                }
-            
-#works .works-btn {
-    display: flex;
-    justify-content: center;
 }
-
-
-/*
-
-animacija_originale:
-transition: all .4s ease-in-out;
-
-width: 100%;
-height: 100%;
-opacity: 0; 
-
-position: absolute;
-top: 0;
-left: 0;
-
-*/
-

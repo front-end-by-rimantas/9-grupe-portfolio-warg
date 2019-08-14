@@ -26,7 +26,7 @@
         <div  class="container" >
             <div class="row">
             <a href="#"><img src="./img/logo.png"></a>
-            <nav>
+            <nav id="myTopnav" class="topnav">
                 <a href="#contacts" class="">contact</a>
                 <a href="#blogs" class="">blogs</a>
                 <a href="#works" class="">works</a>
@@ -34,6 +34,24 @@
                 <a href="#about_me" class="">about</a>
                 <a href="#hero" class="active">home</a>
             </nav>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="left out">
+            <a href="#" class="active">Home</a>
+            <a href="#contacts" class="">contact</a>
+            <a href="#blogs" class="">blogs</a>
+            <a href="#works" class="">works</a>
+            <a href="#services" class="">services</a>
+            <a href="#about_me" class="">about</a>
+        </div>
+        <div class="right out">
+            ICONS
         </div>
     </div>
     </header>
@@ -132,70 +150,11 @@
                 <h2>My work</h2>
                 <p>Anim pariatur cliche sodales reprehenderit, wolf moon officia, cupidatat skateboard dolor brunch.</p>
             </div>
-            <div class="filter">
-                <a class="itemSelected" href="#">All</a>
-                <a href="#">Web</a>
-                <a href="#">Design</a>
-                <a href="#">Photography</a>
-                <a href="#">Music</a>
-            </div>
-            <div class="showcase">
-                <div class="work-item">
-                    <img src="img/portfolio/p-1.jpg" alt="Demo Project Pic">
-                    
-                    <a href="">
-                        <h3>Project title</h3>
-                        <p>Web design</p>
-                    </a>
-
-                </div>
-                <div class="work-item">
-                    <img src="img/portfolio/p-2.jpg" alt="Demo Project Pic">
-
-                    <a href="">
-                        <h3>Project title</h3>
-                        <p>Photography</p>
-                    </a>
-
-                </div>
-                <div class="work-item">
-                    <img src="img/portfolio/p-3.jpg" alt="Demo Project Pic">
-                    
-                    <a href="">
-                        <h3>Project title</h3>
-                        <p>Design</p>
-                    </a>
-
-                </div>
-                <div class="work-item">
-                    <img src="img/portfolio/p-4.jpg" alt="Demo Project Pic">
-                    
-                    <a href="">
-                        <h3>Project title</h3>
-                        <p>Music</p>
-                    </a>
-
-                </div>
-                <div class="work-item">
-                    <img src="img/portfolio/p-5.jpg" alt="Demo Project Pic">
-                    
-                    <a href="">
-                        <h3>Project title</h3>
-                        <p>Photography</p>
-                    </a>
-
-                </div>
-                <div class="work-item">
-                    <img src="img/portfolio/p-6.jpg" alt="Demo Project Pic">
-                    
-                    <a href="">
-                        <h3>Project title</h3>
-                        <p>Web Design</p>
-                    </a>
-
+            <div id="works_gallery" class="row " >
+                <div class="gallery">
+                    LATEST WORKS
                 </div>
             </div>
-
             <div class="works-btn">
                 <a class="buttonEmpty" href="#">View More</a>
             </div>
@@ -330,6 +289,7 @@
     </a>
 
     <script src="js/data.js"></script>
+    <script src="js/unique-words.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/actions.js"></script>
 

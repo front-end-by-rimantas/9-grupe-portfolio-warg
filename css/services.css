@@ -56,4 +56,34 @@
         color: var(--secondary-color-anti);
     }
 
-    
+    @media ( max-width: 1100px ) {
+
+        .one-service {
+            width: 50%;
+            display: inline-block;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .one-service p{
+            width: 80%;
+            margin: 0 0 0 10%;
+            
+        }
+    }
+    @media ( max-width: 900px ) {
+
+        .one-service {
+            width: 80%;
+            display: inline-block;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: 10px;
+            border: 1px solid #1111;
+        }
+        .one-service p{
+            width: 70%;
+            margin: 0 0 0 15%;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+    }
